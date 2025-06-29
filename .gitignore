@@ -1,0 +1,58 @@
+# ---- PYTHON ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+site/
+.mypy_cache/
+.pytest_cache/
+*.sqlite3
+
+# ---- VSCODE ----
+.vscode/
+.history/
+
+# ---- SYSTEM/MACOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+*.swp
+
+
+# ---- NODE/NPM (if any future JS) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- LOGS ----
+*.log
+*.out
+
+# ---- ENVIRONMENT FILES ----
+.env
+.env.*
+
+# ---- CODE-SERVER ----
+.code-server/
+

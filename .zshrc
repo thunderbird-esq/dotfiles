@@ -115,6 +115,7 @@ alias gl='git pull'
 alias proj='cd ~/Projects'
 alias mkvenv='python3 -m venv .venv && source .venv/bin/activate'
 alias workon='source .venv/bin/activate'
+alias codesv="/Applications/code-server-4.101.2-macos-amd64/bin/code-server"
 
 newproj() {
     mkdir -p ~/Projects/$1
