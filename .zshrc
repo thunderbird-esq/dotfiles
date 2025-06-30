@@ -118,16 +118,22 @@ alias mkvenv='python3 -m venv .venv && source .venv/bin/activate'
 alias workon='source .venv/bin/activate'
 alias codesv="/Applications/code-server-4.101.2-macos-amd64/bin/code-server"
 
-newproj() {
-    mkdir -p ~/Projects/$1
-    cd ~/Projects/$1
-    python3 -m venv .venv
-    source .venv/bin/activate
-    echo "# $1" > README.md
-    touch .gitignore requirements.txt
-    git init
-    code .
-}
+# Core project/dev helpers
+alias gclone='repo_clone.sh'            # Bulk clone/update all repos from org
+alias brewup='update_all.sh'            # Update all tools (brew, pip, npm)
+alias sysinfo='sysinfo.sh'              # System info/health check
+alias projclean='clean_projects.sh'     # Remove caches and junk files from ~/Projects
+alias serve='serve.sh'                  # Start local web server (python3 -m http.server)
+alias lintall='lintall.sh'              # Run black, isort, flake8 on all Python files
+alias gitprune='gitprune.sh'            # Prune merged git branches
+alias backupdot='backup_dotfiles.sh'    # Backup dotfiles to external drive
+alias todos='dev_reminder.sh'           # Show your TODO file in terminal
+alias gpushgist='gist_upload.sh'        # Upload a file as a public GitHub Gist
+alias brewsetup='brewsetup.sh'          # Homebrew and cask installer (if in bin/)
+alias fontsetup='fontsetup.sh'          # Coding fonts installer
+alias newproj='newproject.sh'           # New project bootstrapper
+alias mountshares='mountshares.sh'      # Mount network shares
+alias backupprojects='backup_projects.sh' # Backup ~/Projects to external drive
 
 source $ZSH/oh-my-zsh.sh
 
