@@ -1,3 +1,4 @@
+#!/bin/bash
 # TBESQ Daily Dev Journal Quick Append
 
 JOURNAL="$HOME/Projects/dev_journal.md"

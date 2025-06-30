@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # TBESQ Project Bootstrapper
 
 set -e

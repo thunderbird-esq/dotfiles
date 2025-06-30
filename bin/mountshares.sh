@@ -1,3 +1,4 @@
+#!/bin/bash
 # TBESQ Network Share Mounter (edit SMB/NFS as needed)
 
 SHARE_DIR="$HOME/NetworkShares"

@@ -1,3 +1,4 @@
+#!/bin/bash
 # TBESQ Coding Font Installer
 
 brew tap homebrew/cask-fonts

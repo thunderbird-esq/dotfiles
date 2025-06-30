@@ -1,3 +1,4 @@
+#!/bin/bash
 # TBESQ Projects Backup (edit BACKUP_DIR as needed)
 
 BACKUP_DIR="/Volumes/BACKUP_DRIVE/ProjectsBackup"
