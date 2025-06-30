@@ -37,6 +37,9 @@ Icon?
 ehthumbs.db
 Thumbs.db
 *.swp
+*.swo
+*.bak
+*~
 
 
 # ---- NODE/NPM (if any future JS) ----
